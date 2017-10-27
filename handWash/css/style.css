@@ -1,0 +1,49 @@
+/*初始化*/
+body,div,header,nav,section,footer,h1,h2,h3,h4,h5,ul,ol,li,p,dl,dt,dd,form,table,tr,td,th,img,a,span,em,i,strong,b,label,input,select{margin: 0; padding:0;}
+li{list-style: none;}
+a {color: #fff; text-decoration: none;}
+a:hover{color: #fff;}
+.clearfix:before,.clearfix:after{
+	content: " ";
+	display: table;
+}
+.clearfix:after{clear: both;}
+
+html{font-size: 625%;}
+body{min-width: 320px; max-width: 640px; font-size: 0.3rem; margin: 0 auto; font-family: "微软雅黑"; background: #001431 url(../img/head.jpg) no-repeat center top / 100% auto; color: #fff; margin-bottom: 0.27rem;}
+h3{color: #fffc00; font-size: 0.3rem; text-align: center;line-height: 0.6rem; height: 0.6rem; background: url(../img/title1.png) no-repeat 0 0 / 100% auto;}
+.title1{ margin-top: 2.6rem;}
+.overheard{ width: 6.17rem; height: 5.73rem; border:0.02rem #0c2952 solid; border-radius: 10px; box-shadow: 0 0 0.07rem 0 #0c2952 ; margin: 0.07rem auto 0; padding:0.11rem 0 0 0.12rem;}
+.overheard-a{float: left; width: 1.76rem; height: 2.5rem;}
+.overheard-a-img{width: 100%;}
+.introduction{float: left; margin-left: 0.23rem; }
+.list li{font-size: 0.24rem; color: #bababa; line-height: 0.48rem;}
+.blue{color: #00a8ff;}
+.button{ display: block; width: 2.96rem; height: 0.53rem; font-size: 0.28rem; margin: 8px auto 0; color: #fee201; line-height: 0.53rem; background: url(../img/button-bg.png)no-repeat 0 0 / 100% auto; }
+
+.talk{ float: left; width: 5.93rem; height: 1.38rem; padding: 0.1rem 0.01rem 0.19rem; margin: 0.18rem auto 0; border-top:0.01rem dashed #002f71;}
+.bottom{ border-bottom:0.01rem dashed #002f71;}
+.talk-good{background: url(../img/talk.png) no-repeat 0.05rem 0.13rem / 0.26rem 0.26rem; padding-left: 0.33rem; line-height: 0.48rem; font-size: 0.24rem; color: #00a8ff; font-weight: normal;}
+.talk p{ float: left; line-height: 0.24rem; color: #ffe200; font-size: 0.24rem; padding: 0.08rem; background: #0048b1; margin: 0 0.05rem 0.08rem 0 ;}
+.seckill{ float: left; color: #ffeb00; font-size:0.29rem; text-align: center; line-height: 0.52rem;}
+.seckill a{ float: left; background: url(../img/seckill-bg.png) no-repeat 0 0 /100% auto;  line-height: 0.56rem; color: #fff; font-size: 0.26rem; padding:0 0.26rem 0 0.14rem;}
+ .seckill-left{margin-left: 0.2rem;}
+ .seckill-right{ margin-left: 0.08rem; }
+
+
+ /*美国大片*/
+.title2{ margin-top: 0.17rem;}
+.xmen{ width: 6.17rem; height: 4.6rem; border:0.02rem #0c2952 solid; border-radius: 10px; box-shadow: 0 0 0.07rem 0 #0c2952 ; margin: 0.07rem auto 0; padding:0.11rem 0 0 0.12rem;}
+.xmen-a{float: left; width: 1.76rem; height: 2.5rem;}
+.xmen-a-img{width: 100%;}
+
+/*儿童*/
+.title3{ margin-top: 0.46rem;}
+.kid{ width: 6.17rem; height: 1.7rem; border-bottom:0.01rem dashed #002f71; margin: 0.03rem auto 0; padding:0.3rem 0 0.23rem 0.02rem;}
+.kid-a{float: left; width: 1.2rem; height: 1.7rem;}
+.kid-a-img{width: 100%;}
+.list1 li{font-size: 0.24rem; color: #bababa; line-height: 0.35rem;}
+.FS30{font-size:0.3rem;}
+.MT7{margin-top: 0.07rem;}
+.MT12{margin-top: 0.12rem;}
+.MT11{margin-top: 0.11rem;}
