@@ -1,23 +1,23 @@
 var fontAuto={
-	width:750,
-	fontFun:function(){
-		var that=this;
-		var htmlNode=document.documentElement;
-		var winW=htmlNode.clientWidth;
-		winW=winW<320?320:winW;
-		if(winW>=that.width){
+	fontFun:function(width){
+	//width表示效果图的尺寸
+	//让网页的宽度随着浏览器的宽度变化为变化，按比例缩放网页
+		var winWidth=document.documentElement.clientWidth;//网页的可视宽度
+		var htmlNode=document.documentElement;//html标签
+		if(winWidth>=width){
 			htmlNode.style.fontSize="625%";
 		}
 		else{
-			htmlNode.style.fontSize=winW/that.width*625+"%";
+			htmlNode.style.fontSize=winWidth/width*625+"%";
 		}
 	},
-	init:function(){
-		var that=this;
-		that.fontFun();
-		window.onresize=function(){
-			that.fontFun();
+	init:function(){/*初始化*/
+		var obj=this;
+		obj.fontFun(750);//调用fontFun函数
+		window.onresize=function(){//窗口变化时触发函数
+			obj.fontFun(750);
 		}
 	}
 };
+
 fontAuto.init();
